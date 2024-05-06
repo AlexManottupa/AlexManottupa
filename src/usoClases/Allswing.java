@@ -13,6 +13,10 @@ public class Allswing {
 		// TODO Auto-generated method stub
 		ControlRemoto mainFrame = new ControlRemoto();
         mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
+        MainFrameGeneric mainFrame2 = new MainFrameGeneric();
+        mainFrame2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
 	}
  
 }

@@ -18,12 +18,12 @@ public class MainFrameGeneric extends JFrame
 	public MainFrameGeneric()
 	{ 
 		super();  
-		setTitle("Ventana Principal");
+		setTitle("Ventana De Gustos");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLocation(CanvasGeneric.getAnchoPantalla() / 4, 
-				    CanvasGeneric.getAltoPantalla() / 4);
-		setSize(CanvasGeneric.getAnchoPantalla() / 2,
-				CanvasGeneric.getAltoPantalla() / 2);
+				    CanvasGeneric.getAltoPantalla() / 9);
+		setSize(CanvasGeneric.getAnchoPantalla() / 4,
+				CanvasGeneric.getAltoPantalla() / 4);
 		setVisible(true);
 		Image myIcon = tk.createImage("src/Hw.jpg");
 		setIconImage(myIcon);

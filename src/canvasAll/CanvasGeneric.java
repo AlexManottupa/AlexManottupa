@@ -24,9 +24,10 @@ public class CanvasGeneric extends JPanel
 	private static final int Alto_DEF = 0;
 	
 	
-	private final JButton btnRed = new JButton("Rojo");
-    private final JButton btnGreen = new JButton("Verde");
-    private final JButton btnBlue = new JButton("Azul");
+	 private final JButton btnRed = new JButton("Carro");
+	 private final JButton btnGreen = new JButton("Casa");
+	 private final JButton btnBlue = new JButton("Auto");
+
     
     public CanvasGeneric()
     {
@@ -40,8 +41,8 @@ public class CanvasGeneric extends JPanel
     	ColorFondo fondoAzul = new ColorFondo(Color.BLUE);
     	
     	btnRed.addActionListener(fondoRojo);
-    	btnRed.addActionListener(fondoVerde);
-    	btnRed.addActionListener(fondoAzul);
+    	btnGreen.addActionListener(fondoVerde);
+    	btnBlue.addActionListener(fondoAzul);
     	
     }
     
